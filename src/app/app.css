@@ -1,0 +1,51 @@
+
+/* Navigation Bar */
+.navbar {
+  background-color: #111;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+/* Sections */
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+.home {
+  background-color: #f4f4f4;
+}
+
+.products {
+  background-color: #fff;
+}
+
+.contact {
+  background-color: #f4f4f4;
+}
